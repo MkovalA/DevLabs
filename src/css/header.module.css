@@ -1,0 +1,18 @@
+.burger {
+    display: none;
+  }
+  
+.search {
+  display: block;
+}
+  
+@media (max-width: 576px) {
+    .burger {
+      display: block;
+    }
+  
+    .search {
+      display: none;
+    }
+}
+  

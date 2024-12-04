@@ -1,0 +1,23 @@
+.link {
+    display: block;
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    font-family: var(--mantine-font-family);
+    font-size: var(--mantine-font-size-lg);
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #233656;
+  
+    &:hover {
+      background-color: var(--mantine-color-green-filled);
+      color: var(--mantine-color-white);
+    }
+  
+    &[data-active] {
+      &,
+      &:hover {
+        background-color: var(--mantine-color-green-filled);
+        color: var(--mantine-color-white);
+      }
+    }
+}
